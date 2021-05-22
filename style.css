@@ -1,0 +1,596 @@
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+body{
+    font-family:sans-serif;
+    font-weight: 900;
+    background-color:rgb(239, 235, 243); 
+    color:rgb(35, 35, 209);
+}
+.loginbtn{
+    position: relative;
+    left:7.5cm;
+    top:-0.3cm;
+    background-color: rgb(55, 55, 195); 
+    font-weight: 900;
+    border-radius:20px;
+    transition-delay: 0.1s;
+    transition-duration: 0.8s;
+  }
+  .loginbtn:hover {
+    background-color: rgba(235, 167, 21, 0.966);
+    color: rgb(7, 8, 8);
+ 
+  }
+.submitbtn{
+    background-color: rgb(55, 55, 195); 
+    font-weight: 900;
+    border-radius:20px;
+    transition-delay: 0.1s;
+    transition-duration: 0.8s;
+}
+.submitbtn:hover {
+    background-color: rgba(235, 167, 21, 0.966);
+    color: rgb(7, 8, 8);
+}
+.main1{
+    height: fit-content;
+}
+.secone{
+    position: relative;
+    left:3cm;
+    
+}
+.first{
+    position: relative;
+    left: 100px;
+    width: fit-content;
+}
+.firstp{
+    font-weight:lighter;
+}
+.img1{
+    position: relative;
+    width: fit-content;
+    left: 25cm;
+    width: 700px;
+    top: -450px;
+    height: 15cm;
+}
+        .navbar {
+            position: relative;
+            
+            width: 80%;
+            /* font-size:large; */
+            padding: 90px 300px;
+            top: -2cm;
+            font-family: 'Ubuntu', sans-serif;
+            transition: all 0.3s ease;
+            width: fit-content;
+         
+        }
+        .navbar.sticky {
+            padding: 15px 0;
+            background: rgb(41, 33, 65);
+        }
+        .navbar .max-width {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        /* .navbar .logo a {
+            color: #fff;
+            font-size: 35px;
+            font-weight: 600;
+        }
+        */
+        .navbar .menu li {
+            list-style: none;
+            display: inline-block;
+            position: relative;
+            left:6cm;
+
+           
+        }
+        .navbar .menu li a {
+            display: block;
+            color: rgb(22, 14, 100);
+            font-size: 20px;
+            font-weight: 40;
+            margin-left: 25px;
+            transition: color 0.3s ease;
+        }
+        
+        /* .navbar .menu li a:hover {
+            color: rgb(16, 104, 236);
+        }
+        .navbar.sticky .menu li a:hover {
+            color: #fff;
+        } */
+      
+          
+        .logoimg{
+            position: relative;
+            height: 90px;
+            left:-5cm;
+            top: 5px;
+        }
+        .button {
+            /* background-color: rgb(17, 22, 18);
+            border: none;
+            color: rgb(206, 51, 51); */
+            background-color:black;
+            padding: 8px 30px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            /* font-size: px; */
+            margin: 4px 2px;
+            /* transition-duration: 0.4s; */
+            cursor: pointer;
+            border-radius: 10px;
+            transition-delay: 0.1s;
+            transition-duration: 0.8s;
+          }
+          .button1 {
+            background-color: rgb(55, 55, 195); 
+            color: rgb(218, 28, 28); 
+            border-radius:20px;
+            transition-delay: 0.1s;
+            transition-duration: 0.8s;
+          }
+          .button1:hover {
+            background-color: rgba(235, 167, 21, 0.966);
+            color: rgb(7, 8, 8);
+         
+          }
+         
+         
+          .button2 {
+            background-color: transparent; 
+            color: rgb(55, 55, 195); 
+            transition-delay: 0.1s;
+            transition-duration: 0.8s;
+           
+          }
+          .button2:hover {
+            background-color: #dbc6e067;
+            color: rgb(7, 8, 8);
+            transition-delay: 0.1s;
+            transition-duration: 0.8s;
+          }
+
+
+span{
+    color:rgba(235, 167, 21, 0.966);
+}
+
+.button3 {
+    background-color: rgb(184, 182, 182); 
+    color: rgb(55, 55, 195); 
+    border-radius:20px;
+    width: 2.5cm;
+    transition-delay: 0.1s;
+    transition-duration: 0.4s;
+   
+  }
+  .button3:hover {
+    background-color:rgba(235, 167, 21, 0.966);
+    color: rgb(7, 8, 8);
+  }
+  .btn2{
+      position: relative;
+      left: 1.59cm;
+      transition-delay: 0.1s;
+      transition-duration: 0.8s;
+      
+  }
+  .product{
+      position: relative;
+      top: -10cm;
+      left:7cm;
+      width: fit-content;
+     
+  }
+  
+  .product .pimg:hover{
+      opacity:0.5;
+      transition-delay: 0.1s;
+      transition-duration: 0.8s;
+  }
+  .btn{
+      position: relative;
+      left: -1.6cm;
+      font-weight: 600;
+      font-size: large;
+      height: 1.3cm;
+  }
+  .button3{
+      position: relative;
+      font-weight: 600;
+      font-size: large;
+      width: 4cm;
+      height: 1.2cm;
+  }
+  /* .logoimg{
+      position: relative;
+      top:-0.8cm;
+  } */
+  /* .product .a{
+    position: relative;
+    top:0.1cm;
+    left:1.2cm;
+}
+   */
+ /* .firstp{
+     color:rgb(55, 55, 195);
+ } */
+
+ 
+ .projects {
+     color: #fff;
+     width: fit-content;
+     
+ }
+  .title::before,
+ .projects .title::before {
+     background: #fff;
+ }
+  .title::after,
+ .projects .title::after {
+ 
+     
+     color: rgb(16, 104, 236);
+ }
+  .card {
+     
+     color: rgb(16, 104, 236);
+     width:20cm;
+     background: rgb(239, 235, 243);
+     text-align: center;
+     /* border-radius: 6px; */
+     border-color: transparent;
+     padding: 20px 25px;
+     cursor: pointer;
+     transition: all 0.3s ease;
+ }
+  .card:hover {
+     color:white;
+     background: rgb(55, 55, 195);
+     
+ }
+ 
+  .card .box {
+     transition: all 0.3s ease;
+ }
+  .card:hover .box {
+     transform: scale(1.05);
+     color:#fff;
+ }
+  .card i {
+     font-size: 50px;
+     color: rgb(16, 104, 236);
+     transition: color 0.3s ease;
+ }
+  .card:hover i {
+     color: #fff;
+ }
+  .card .text {
+     font-size: 25px;
+     font-weight: 500;
+     margin: 10px 0 7px 0;
+     
+ }
+  .card .text:hover {
+   
+    color:white;
+}
+
+ .icon{
+     position: relative;
+     height: 60px;
+ }
+
+.c1{
+    position: relative;
+    bottom: 10cm;
+    right: -10cm;
+    height: fit-content;
+   
+}
+.c2{
+    position: relative;
+    bottom: 10cm;
+    top:-14.4cm;
+    right: -26.1cm;
+    height: fit-content;
+}
+.c3{
+    position: relative;
+    bottom: 10cm;
+    width:20cm;
+    top:-14.3cm;
+    right: -26.1cm;
+    height: fit-content;
+}
+.c4{
+    position: relative;
+    width:20cm;
+    right: -10cm;
+    top:-18.7cm;
+    height: fit-content;
+}
+.f1{
+    position: relative;
+    right: 14cm;
+    height: fit-content;
+}
+.f2{
+    position: relative;
+    right: 14cm;
+    height: fit-content;
+}
+.image2{
+    position: relative;
+    top:-16cm;
+    left:-9cm;
+    height: fit-content;
+}
+.second{
+    position: relative;
+    font-weight:lighter;
+    top:-26cm;
+    left:10cm;
+    height: fit-content;
+}
+.imgfour{
+    position: relative;
+    width: 20cm;
+    height: 15cm;
+    top:-20cm;
+    right:-17cm;
+    height: fit-content;
+}
+.third{
+    position: relative;
+    font-weight:lighter;
+    top:-30cm;
+    left:2cm;
+    height: fit-content;
+
+}
+.main{
+    width: fit-content;
+    height: fit-content;
+}
+.sectwo{
+    position: relative;
+    left:8cm;
+    height: fit-content;
+
+}
+.secthree{
+    position: relative;
+    left:14cm;
+    height: fit-content;
+}
+.secfour{
+    position: relative;
+    left:4cm;
+}
+.m{
+    height:min-content;
+    
+}
+.secfive{
+    position: relative;
+    width: fit-content;
+    top:-20cm;
+    left:20cm;
+}
+.cn1{
+    position: relative;
+    top:-18cm;
+    left:8cm;
+}
+.cn2{
+    position: relative;
+    /* width:20px; */
+    top:-22.6cm;
+    /* height:1cm; */
+    left:20cm;
+}
+.cn3{
+    position: relative;
+    top:-27.5cm;
+    left:32cm;
+
+}
+.counter{
+    width: fit-content;
+    height: fit-content;
+    /* left:20cm; */
+}
+.lastimg{
+    position: relative;
+    left: 3cm;
+    top:-23.2cm ;
+    height: 3cm
+    
+   
+   
+}
+.last{
+    position: relative;
+    left: 2cm;
+}
+.r1{
+    position: relative;
+    top:-29cm;
+    left:15cm;
+    width: fit-content;
+}
+.r2{
+    position: relative;
+    top:-36.19cm;
+    left:25cm;
+    width: fit-content;
+}
+.r3{
+    position: relative;
+    top:-42.2cm;
+    left:35cm;
+    width: fit-content;
+    height: fit-content;
+}
+.lastimg1{
+    position: relative;
+    left: 4cm;
+    top:-23.2cm ;
+    height: fit-content;
+    height: 3cm
+    
+    
+   
+   
+}
+.container{
+    height: fit-content;
+    
+}
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+  
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color:BLACK;/*PUT BLUE HERE APNA WALA */
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 30px;
+    border-color: transparent;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336bb;
+  }
+  
+  
+  .imgcontainer {
+    text-align: center;
+    margin: 24px 0 12px 0;
+    position: relative;
+  }
+  
+  img.avatar {
+    width:4cm;
+    border-radius:2%;
+    height: 4cm;
+  }
+  
+  .container {
+    padding: 16px;
+  }
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  .m{
+      height: fit-content;
+      width: fit-content;
+  }
+  
+  .modal {
+    display: none; 
+    position: fixed; 
+    /* z-index: 1;  */
+    left: 10cm;/*YE POSITION KE LIYECHANGE KARNA */
+    top: 0;/*YE POSITION KE LIYECHANGE KARNA */
+    width: 30cm; /*YE HEIGHT WIDTH KE LIYECHANGE KARNA */
+    height: 30cm; /*YE HEIGHT WIDTH KE LIYECHANGE KARNA */
+    overflow: auto; 
+  
+    
+  }
+
+  
+  .modal-content {
+     background-color:white;/* YAHA TRANSPARENT BLUE BACKGROUND DALO */
+    margin: 5% auto 15% auto; 
+    ;
+    width: 80%; 
+  }
+  
+  .close {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: red;
+    cursor: pointer;
+  }
+  
+  .animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
